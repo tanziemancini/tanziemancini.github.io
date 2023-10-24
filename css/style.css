@@ -1,30 +1,69 @@
 html {
-
+    font-size:16px;
 }
 
 body {
     max-width: 70.25rem;
-    background-color:
-    color: #
-    line-height:1.5;
-    margin: 5rem auto;
+    /* digital numbers */
+    font-family: Digital Numbers;
+    color: #4022F0;
+    line-height: 1.5;
+    margin: 4rem auto;
 
 }
 
 header {
-
+    display: flex;
+    width: 70rem;
+    height: 7.125rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-
+h1,
+nav,
+footer {
+    color: #4022F0;
+    font-family: Archivo;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h2 {
+    color: #4022F0;
+    text-align: center;
+    /* digital numbers */
+    font-family: Digital Numbers;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+    letter-spacing: 0.03938rem;
+}
 
+p {
+    color: #4022F0;
+    text-align: center;
+    /* digital numbers */
+    font-family: Digital Numbers;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+    letter-spacing: 0.03938rem;
 }
 
 a {
+    color: greenyellow ;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
 
+a:visited,
+.selected {
+    color: greenyellow;
 }
 
 a h1:hover {
@@ -36,13 +75,17 @@ nav {
 }
 
 main {
-
+    justify-content: center;
 }
+
 
 footer {
-
-}
-
-selected {
-
+    margin: auto;
+    display: flex;
+    width: 32.5rem;
+    height: 3.4375rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 6.5rem;
 }
