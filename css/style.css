@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 html {
     font-size:16px;
 }
@@ -5,7 +7,7 @@ html {
 body {
     max-width: 70.25rem;
     /* digital numbers */
-    font-family: Digital Numbers;
+    font-family: 'VT323', monospace;
     color: #4022F0;
     line-height: 1.5;
     margin: 4rem auto;
@@ -20,12 +22,18 @@ header {
     align-items: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h1,
 nav,
 footer {
     color: #4022F0;
-    font-family: Archivo;
-    font-size: 2rem;
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -35,8 +43,8 @@ h2 {
     color: #4022F0;
     text-align: center;
     /* digital numbers */
-    font-family: Digital Numbers;
-    font-size: 1.125rem;
+    font-family: 'VT323', monospace;
+    font-size:3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 1.6875rem */
@@ -47,12 +55,16 @@ p {
     color: #4022F0;
     text-align: center;
     /* digital numbers */
-    font-family: Digital Numbers;
+    font-family: 'VT323', monospace;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 1.6875rem */
     letter-spacing: 0.03938rem;
+}
+
+img {
+
 }
 
 a {
@@ -78,6 +90,13 @@ main {
     justify-content: center;
 }
 
+section {
+    margin: 9.25rem auto;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
 
 footer {
     margin: auto;
@@ -88,4 +107,26 @@ footer {
     align-items: flex-start;
     flex-shrink: 0;
     gap: 6.5rem;
+}
+
+#byline {
+    grid-column: 2/12;
+    text-align:center;
+}
+
+.left {
+    grid-column: 1/6; 
+}
+
+.right {
+    grid-column: 7/12; 
+}
+.top {
+    scale: 250%;
+    grid-column: 3; 
+    justify-content: center;
+}
+
+#title {
+    text-align:center;
 }
