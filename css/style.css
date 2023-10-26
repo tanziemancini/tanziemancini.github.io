@@ -56,7 +56,7 @@ p {
     text-align: center;
     /* digital numbers */
     font-family: 'VT323', monospace;
-    font-size: 1.125rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 1.6875rem */
@@ -121,7 +121,7 @@ footer {
 .right {
     grid-column: 7/12; 
 }
-.top {
+.top1 {
     scale: 250%;
     grid-column: 3; 
     justify-content: center;
@@ -130,3 +130,4 @@ footer {
 #title {
     text-align:center;
 }
+
