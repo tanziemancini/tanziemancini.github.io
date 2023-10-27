@@ -4,6 +4,7 @@ html {
     font-size:16px;
 }
 
+
 body {
     max-width: 70.25rem;
     /* digital numbers */
@@ -67,7 +68,7 @@ img {
 
 }
 
-a {
+nav a {
     color: greenyellow ;
     text-decoration: none;
     margin: 0 0 0 2rem;
@@ -82,9 +83,6 @@ a h1:hover {
 
 }
 
-nav {
-
-}
 
 main {
     justify-content: center;
@@ -110,8 +108,15 @@ footer {
 }
 
 #byline {
-    grid-column: 2/12;
-    text-align:center;
+    width: 100%;
+    margin: auto; 
+    text-align: center;
+}
+
+#byline h5{
+    font-size: 3rem;
+    text-align: center;
+    
 }
 
 .left {
@@ -131,3 +136,23 @@ footer {
     text-align:center;
 }
 
+#inline {
+    display: table;
+    width:100%;
+    background-color: #2410f932;
+  }
+  #inline div {
+    display: flex;
+     align-items: center;
+        justify-content: space-evenly;
+  }
+  #inline h1 {
+    text-align: center;
+  }
+  .smlBox {
+    font-family: Century Gothic, sans-serif;
+    font-size: .9em;
+    margin: 17px 0px 17px 0px;
+    border-radius: 5px;
+    padding: 7px 17px 7px 17px;
+  }
