@@ -79,11 +79,6 @@ a:visited,
     color: greenyellow;
 }
 
-a h1:hover {
-
-}
-
-
 main {
     justify-content: center;
 }
@@ -120,16 +115,33 @@ footer {
 }
 
 .left {
-    grid-column: 1/6; 
+    grid-column: 4/7; 
 }
 
 .right {
-    grid-column: 7/12; 
+    grid-column: 10/13; 
+}
+.left1 {
+    grid-column: 0/7; 
+}
+
+.right1 {
+    grid-column: 10/13; 
+}
+.grid1 {
+    grid-column: 1/4; 
+}
+
+.grid2 {
+    grid-column: 6/11; 
 }
 .top1 {
     scale: 250%;
     grid-column: 3; 
     justify-content: center;
+}
+div.top {
+    margin: auto -70px;
 }
 
 #title {
@@ -144,7 +156,7 @@ footer {
   #inline div {
     display: flex;
      align-items: center;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   #inline h1 {
     text-align: center;
@@ -152,7 +164,48 @@ footer {
   .smlBox {
     font-family: Century Gothic, sans-serif;
     font-size: .9em;
-    margin: 17px 0px 17px 0px;
+    margin: 17px 0px 17px -200px;
     border-radius: 5px;
     padding: 7px 17px 7px 17px;
   }
+
+  #steps p {
+    text-align: left;
+  }
+
+.splash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: blue;
+    border: 1px solid blue;
+    color:greenyellow;
+    font-size: 40px;
+    padding: 8px 16px 8px 16px;
+}
+
+label {
+    display: block;
+    margin: 16px 0px 16px 0px;
+    font-size: 40px;
+}
+
+textarea {
+    height: 320px;
+}
+
+button{
+    background-color: greenyellow;
+    border: none;
+    font-size: 20px;
+    padding: 8px 16px 8px 16px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid greenyellow;
+}
+  
